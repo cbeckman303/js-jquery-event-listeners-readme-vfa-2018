@@ -24,6 +24,10 @@ $("p").bind("click", getIt());
 
 $('img').bind("load", frameIt());
 
+$('img').on('load', frameIt(){
+  $(this).addClass("tasty");
+});
+
 $(document).on("key down", pressIt());
 
 $("form").on("submit", submitIt());
