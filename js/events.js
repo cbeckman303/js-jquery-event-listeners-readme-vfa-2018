@@ -24,7 +24,7 @@ $("p").bind("click", getIt());
 
 $('img').bind("load", frameIt());
 
-$(document).on("keydown", pressIt());
+$(document).on("key down", pressIt());
 
 $("form").on("submit", submitIt());
 
