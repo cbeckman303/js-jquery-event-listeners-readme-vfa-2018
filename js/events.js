@@ -4,7 +4,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $(this).addClass("tasty")
+  $(this).addClass("tasty");
 }
 
 function pressIt() {
