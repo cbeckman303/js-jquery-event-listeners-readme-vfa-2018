@@ -4,7 +4,7 @@ function getIt() {
 }
 
 function frameIt() {
-  this.class = "tasty";
+  $(this).addClass("tasty")
 }
 
 function pressIt() {
@@ -22,7 +22,7 @@ $(document).ready(function(){
 // call functions here
 $("p").bind("click", getIt());
 
-$("img").bind("load", frameIt());
+$('img').bind("load", frameIt());
 
 $(document).on("keydown", pressIt());
 
