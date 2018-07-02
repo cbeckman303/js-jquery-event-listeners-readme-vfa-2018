@@ -24,9 +24,7 @@ $("p").bind("click", getIt());
 
 $('img').bind("load", frameIt());
 
-$('img').on('load', function() {
-  $(this).addClass("tasty");
-});
+$('img').on('load', frameIt());
 
 $(document).on("key down", pressIt());
 
